@@ -1,0 +1,146 @@
+body {
+    text-align: center;
+    background-color: #0b0c0f;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.msgWelcome {
+    position: relative;
+    top: 60px;
+}
+
+
+
+.msgWelcome{
+    margin-top: 3%;
+    padding: -10px 0;
+}
+.msgWelcome{
+    display: inline-block;
+    margin: 0 15px;
+}
+.msgWelcome{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+.msgWelcome::after{
+    content: '';
+    background: #ec2929;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.msgWelcome:hover::after{
+    width: 100%;
+}
+
+
+.tools {
+    position: relative;
+    top: 80px;
+}
+
+
+
+.download-link {
+    text-decoration: none;
+    position: relative;
+    top: 75px;
+}
+
+
+
+  .download-link {
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-link {
+    background-color: #0D9488;
+    color: #FFFFFF;
+  }
+  
+  .download-link {
+    background-color: #0D9488;
+  }
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8400ff;
+  }
+
+
+  .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .loader {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4a90e2;
+    opacity: 0.7;
+    transform: translateY(-20px);
+    animation: dot-move 1s ease-in-out infinite;
+  }
+  
+  .dot-1 {
+    animation-delay: 0.1s;
+  }
+  
+  .dot-2 {
+    animation-delay: 0.2s;
+  }
+  
+  .dot-3 {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes dot-move {
+    0% {
+      transform: translateY(-20px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  

@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    background-color: #0b0c0f;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .msgWelcome {
+    position: relative;
+    top: 60px;
+  }
+  
+  
+  .msgWelcome{
+    margin-top: 3%;
+    padding: -10px 0;
+    display: inline-block;
+    margin: 0 15px;
+  }
+  .msgWelcome{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+  }
+  .msgWelcome::after{
+    content: '';
+    background: #ec2929;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+  }
+  .msgWelcome:hover::after{
+    width: 100%;
+  }
+  
+  
+  .tools {
+    position: relative;
+    top: 80px;
+  }
+  
+  
+  
+  .download-link {
+    text-decoration: none;
+    position: relative;
+    top: 75px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    background-color: #CC0000;
+  }
+  
+  
+  .soon {
+    position: relative;
+    top: 80px;
+    padding: 20px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8400ff;
+  }
+  
+  
+  .next {
+    text-decoration: none;
+    position: relative;
+    top: 130px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    background-color: #CC0000;
+  }
+  
+  
+  
+  .next-txt {
+  position: relative;
+  top: 120px;
+  color: #ff0000;
+  }
+  
+  
+  
+  
+  
+  
+  
